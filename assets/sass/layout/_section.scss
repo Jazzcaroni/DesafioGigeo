@@ -1,0 +1,55 @@
+.contenedor__perfil {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem 4.6rem;
+}
+.contenedor__perfil__nombre {
+  padding-top: 1rem;
+}
+.contenedor__perfil__button {
+  justify-content: flex-end;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  padding-left: 13rem;
+}
+@media only screen and (max-width: 1400px) and (min-width: 769px){
+  .contenedor__perfil {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 0rem;
+  }
+  .contenedor__perfil__nombre {
+    padding-top: 1rem;
+    width: 100%;
+  }
+  .contenedor__perfil__button {
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding-left: 13rem;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 375px){
+  .contenedor__perfil {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem 2rem 2rem 2rem;
+  }
+  .contenedor__foto {
+    padding: 0;
+
+  }
+  .contenedor__perfil__nombre {
+    padding: 1rem 0;
+  }
+  .contenedor__perfil__button {
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding-left: 13rem;
+  }
+}

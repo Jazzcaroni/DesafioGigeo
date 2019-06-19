@@ -1,0 +1,44 @@
+//  Componente de botón
+
+.button {
+  padding: .8rem .6rem;
+  margin: 0 1rem;
+  cursor: pointer;
+  font-family: $monserrat;
+  font-size: $regular;
+}
+
+// Button
+.button_primary {
+  border: none;
+  color: $white;
+  background-color: $azul;
+
+  &:hover {
+    background-color: $azul-oscuro;
+  }
+  &:focus {
+    background-color: $gris;
+  }
+}
+
+.button2 {
+  padding: .8rem 1.8rem;
+  cursor: pointer;
+  font-family: $monserrat;
+  font-size: $regular;
+}
+
+// Button
+.button_secundary {
+  border: none;
+  color: $white;
+  background-color: $rojo;
+
+  &:hover {
+    background-color: $rojo-oscuro;
+  }
+  &:focus {
+    background-color: $gris;
+  }
+}

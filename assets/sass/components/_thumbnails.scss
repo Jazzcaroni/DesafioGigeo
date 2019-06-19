@@ -1,0 +1,13 @@
+/* Componente thumbnails */
+// base
+.thumbnails {
+  border-radius: 50%;
+}
+.thumbnails__small {
+  max-width: 50px;
+
+}
+.thumbnails__normal {
+  max-width: 80px;
+  border-radius: 90% 90%;
+}
