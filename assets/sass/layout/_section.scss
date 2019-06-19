@@ -13,11 +13,11 @@
   margin: auto;
   padding-left: 13rem;
 }
-@media only screen and (max-width: 1400px) and (min-width: 769px){
+@media only screen and (max-width: 1500px) and (min-width: 769px){
   .contenedor__perfil {
     display: flex;
     flex-direction: row;
-    padding: 1rem 0rem;
+    padding: 1rem 0rem 1rem 3rem;
   }
   .contenedor__perfil__nombre {
     padding-top: 1rem;

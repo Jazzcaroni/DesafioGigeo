@@ -9659,7 +9659,7 @@ h3 {
 /* Fuentes */
 /* Pesos de fuentes */
 /* Tamanos de fuentes */
-@media only screen and (max-width: 1400px) and (min-width: 769px) {
+@media only screen and (max-width: 1500px) and (min-width: 769px) {
   body {
     margin: 0;
     padding: 0;
@@ -9750,7 +9750,7 @@ p {
   color: #9f9f9f;
 }
 
-@media only screen and (max-width: 1400px) and (min-width: 769px) {
+@media only screen and (max-width: 1500px) and (min-width: 769px) {
   .contenedor__navigacion {
     display: flex;
     flex-direction: row;
@@ -9767,7 +9767,7 @@ p {
 
   .contenedor__brand__logo {
     width: 8.4rem;
-    margin: 2rem 2rem 2rem 4rem;
+    margin: 2rem 2rem 2rem 2rem;
   }
 
   .contenedor__iconos {
@@ -9814,7 +9814,7 @@ p {
     justify-content: flex-end;
   }
 }
-@media only screen and (max-width: 1400px) and (min-width: 769px) {
+@media only screen and (max-width: 1500px) and (min-width: 769px) {
   .img-banner {
     width: 100%;
   }
@@ -9850,11 +9850,11 @@ p {
   padding-left: 13rem;
 }
 
-@media only screen and (max-width: 1400px) and (min-width: 769px) {
+@media only screen and (max-width: 1500px) and (min-width: 769px) {
   .contenedor__perfil {
     display: flex;
     flex-direction: row;
-    padding: 1rem 0rem;
+    padding: 1rem 0rem 1rem 3rem;
   }
 
   .contenedor__perfil__nombre {
@@ -9894,11 +9894,11 @@ p {
     padding-left: 13rem;
   }
 }
-@media only screen and (max-width: 1400px) and (min-width: 769px) {
+@media only screen and (max-width: 1500px) and (min-width: 769px) {
   .contenedor__titulo {
     text-align: left;
     margin: 2rem 1.5rem 1.5rem 1.5rem;
-    padding-left: 4.6rem;
+    padding-left: 4rem;
   }
 
   .img {
@@ -9913,6 +9913,7 @@ p {
     flex-direction: row;
     align-content: center;
     justify-content: center;
+    padding: 0 3rem;
   }
 
   .contendor__videos__imagen {
