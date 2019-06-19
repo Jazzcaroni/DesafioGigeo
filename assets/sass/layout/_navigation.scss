@@ -5,6 +5,7 @@
     align-content: center;
     justify-content: center;
     margin: 0;
+    padding-right: 3rem;
     justify-content: space-between;
   }
   .contenedor__brand {
@@ -12,7 +13,7 @@
   }
   .contenedor__brand__logo {
     width: 8.4rem;
-    margin: 2rem 2rem 2rem 6rem;
+    margin: 2rem 2rem 2rem 4rem;
     }
 
   .contenedor__iconos {
@@ -20,12 +21,14 @@
     display: flex;
     flex-direction: row;
     margin: 2rem 0 0 2rem;
-    padding-left:  4rem;
+    padding-left:  38rem;
+    padding-right: 0;
     }
 
   ul li {
       display: inline-flex;
       padding: .5rem;
+      justify-content: flex-end;
     }
   .contenedor__bars {
     margin: 2rem 0;
