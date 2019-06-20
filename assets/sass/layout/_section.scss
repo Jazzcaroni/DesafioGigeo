@@ -1,19 +1,4 @@
-.contenedor__perfil {
-  display: flex;
-  flex-direction: row;
-  padding: 1rem 4.6rem;
-}
-.contenedor__perfil__nombre {
-  padding-top: 1rem;
-}
-.contenedor__perfil__button {
-  justify-content: flex-end;
-  display: flex;
-  flex-direction: row;
-  margin: auto;
-  padding-left: 13rem;
-}
-@media only screen and (max-width: 1500px) and (min-width: 769px){
+
   .contenedor__perfil {
     display: flex;
     flex-direction: row;
@@ -31,7 +16,7 @@
     margin: auto;
     padding-left: 9rem;
   }
-}
+
 
 @media only screen and (max-width: 768px) and (min-width: 375px){
   .contenedor__perfil {

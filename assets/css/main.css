@@ -9659,18 +9659,11 @@ h3 {
 /* Fuentes */
 /* Pesos de fuentes */
 /* Tamanos de fuentes */
-@media only screen and (max-width: 1500px) and (min-width: 769px) {
-  body {
-    margin: 0;
-    padding: 0;
-  }
+body {
+  margin: 0;
+  padding: 0;
 }
-@media only screen and (max-width: 768px) and (min-width: 375px) {
-  body {
-    margin: 0;
-    padding: 0;
-  }
-}
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -9750,45 +9743,44 @@ p {
   color: #9f9f9f;
 }
 
-@media only screen and (max-width: 1500px) and (min-width: 769px) {
-  .contenedor__navigacion {
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: center;
-    margin: 0;
-    padding-right: 3rem;
-    justify-content: space-between;
-  }
-
-  .contenedor__brand {
-    padding-right: 0;
-  }
-
-  .contenedor__brand__logo {
-    width: 8.4rem;
-    margin: 2rem 2rem 2rem 2rem;
-  }
-
-  .contenedor__iconos {
-    justify-content: flex-end;
-    display: flex;
-    flex-direction: row;
-    margin: 2rem 0 0 2rem;
-    padding-left: 38rem;
-    padding-right: 0;
-  }
-
-  ul li {
-    display: inline-flex;
-    padding: 0.5rem;
-    justify-content: flex-end;
-  }
-
-  .contenedor__bars {
-    margin: 2rem 0;
-  }
+.contenedor__navigacion {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  margin: 0;
+  padding-right: 3rem;
+  justify-content: space-between;
 }
+
+.contenedor__brand {
+  padding-right: 0;
+}
+
+.contenedor__brand__logo {
+  width: 8.4rem;
+  margin: 2rem 2rem 2rem 2rem;
+}
+
+.contenedor__iconos {
+  justify-content: flex-end;
+  display: flex;
+  flex-direction: row;
+  margin: 2rem 0 0 2rem;
+  padding-left: 38rem;
+  padding-right: 0;
+}
+
+ul li {
+  display: inline-flex;
+  padding: 0.5rem;
+  justify-content: flex-end;
+}
+
+.contenedor__bars {
+  margin: 2rem 0;
+}
+
 @media only screen and (max-width: 768px) and (min-width: 375px) {
   .contenedor__navigacion {
     display: flex;
@@ -9814,32 +9806,24 @@ p {
     justify-content: flex-end;
   }
 }
-@media only screen and (max-width: 1500px) and (min-width: 769px) {
-  .img-banner {
-    width: 100%;
-  }
-
-  .container-fluid {
-    padding: 0;
-  }
+.img-banner {
+  width: 100%;
 }
-@media only screen and (max-width: 768px) and (min-width: 375px) {
-  .img-banner {
-    width: 100%;
-  }
 
-  .container-fluid {
-    padding: 0;
-  }
+.container-fluid {
+  padding: 0;
 }
+
 .contenedor__perfil {
   display: flex;
   flex-direction: row;
-  padding: 1rem 4.6rem;
+  padding: 1rem 0rem 1rem 3rem;
 }
 
 .contenedor__perfil__nombre {
   padding-top: 1rem;
+  line-height: 1.5em;
+  width: 100%;
 }
 
 .contenedor__perfil__button {
@@ -9847,30 +9831,9 @@ p {
   display: flex;
   flex-direction: row;
   margin: auto;
-  padding-left: 13rem;
+  padding-left: 9rem;
 }
 
-@media only screen and (max-width: 1500px) and (min-width: 769px) {
-  .contenedor__perfil {
-    display: flex;
-    flex-direction: row;
-    padding: 1rem 0rem 1rem 3rem;
-  }
-
-  .contenedor__perfil__nombre {
-    padding-top: 1rem;
-    line-height: 1.5em;
-    width: 100%;
-  }
-
-  .contenedor__perfil__button {
-    justify-content: flex-end;
-    display: flex;
-    flex-direction: row;
-    margin: auto;
-    padding-left: 9rem;
-  }
-}
 @media only screen and (max-width: 768px) and (min-width: 375px) {
   .contenedor__perfil {
     display: flex;
@@ -9894,36 +9857,35 @@ p {
     padding-left: 13rem;
   }
 }
-@media only screen and (max-width: 1500px) and (min-width: 769px) {
-  .contenedor__titulo {
-    text-align: left;
-    margin: 2rem 1.5rem 1.5rem 1.5rem;
-    padding-left: 4rem;
-  }
-
-  .img {
-    width: 100%;
-    max-width: 20rem;
-    height: auto;
-    margin-bottom: 1rem;
-  }
-
-  .contendor__videos {
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: center;
-    padding: 0 3rem;
-  }
-
-  .contendor__videos__imagen {
-    margin: 1.5rem;
-  }
-
-  h3 {
-    margin-bottom: 0.4rem;
-  }
+.contenedor__titulo {
+  text-align: left;
+  margin: 2rem 1.5rem 1.5rem 1.5rem;
+  padding-left: 4rem;
 }
+
+.img {
+  width: 100%;
+  max-width: 20rem;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.contendor__videos {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  padding: 0 3rem;
+}
+
+.contendor__videos__imagen {
+  margin: 1.5rem;
+}
+
+h3 {
+  margin-bottom: 0.4rem;
+}
+
 @media only screen and (max-width: 768px) and (min-width: 375px) {
   .contenedor__titulo {
     text-align: left;
@@ -9937,9 +9899,13 @@ p {
     padding: 1rem 2rem;
   }
 
+  .contendor__videos__imagen {
+    margin: 1rem 0.5rem;
+  }
+
   .img {
     width: 100%;
-    max-width: 21rem;
+    max-width: 26rem;
     height: auto;
     margin-bottom: 1rem;
     margin-top: 1rem;
